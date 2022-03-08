@@ -2,6 +2,8 @@
 This Python code executes the A* Search algorithm on the sample data provided by the Coursera course Modern Robotics :  Robot Motion Planning and Control.
 
 - Nodes and Edges information is imported to the code from csv files and converted to lists.
+- In the nodes file : 1st column - Node ID; 2nd, 3rd column - x,y coordinates : 4th Column -  Heuristic Cost to go
+- In the edges fle : 1st,2nd column - Node IDs; 3rd Column - Edge length 
 - Then a Dictionary is created with the keys being node IDs and values being a list of the neighbours for that node.
 - OPEN, CLOSED list defined. heuristic cost to go from the node to the goal information taken from the nodes list. 
 - Lsits to store past cost to a node, estimated total cost, parent node information are intialized
