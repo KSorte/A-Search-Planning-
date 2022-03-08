@@ -14,33 +14,69 @@ This Python code executes the A* Search algorithm on the sample data provided by
 
 Current =  : 1
 Current is 1, neighbour is 3
+Heuristic is : 1.1244
 OPEN list :
 
 [[3, 1.4147]]
 Current is 1, neighbour is 2
+Heuristic is : 1.0762
+Length of the OPEN list is : 2
 Current =  : 3
 Current is 3, neighbour is 4
+Heuristic is : 0.8494
 OPEN list :
 
-[[4, 1.4914]]
+[[4, 1.4914], [2, 1.4982]]
+Current is 3, neighbour is 2
+Length of the OPEN list is : 2
 Current =  : 4
 Current is 4, neighbour is 8
-OPEN list :
-
-[[8, 1.6233999999999997]]
+Heuristic is : 0.5014
+Current is 4, neighbour is 2
 Current is 4, neighbour is 5
+Heuristic is : 0.7604
 OPEN list :
 
-[[5, 1.5124], [8, 1.6233999999999997]]
+[[2, 1.4982], [5, 1.5124], [8, 1.6233999999999997]]
+Length of the OPEN list is : 3
+Current =  : 2
+Current is 2, neighbour is 5
+Heuristic is : 0.7604
+OPEN list :
+
+[[5, 1.3614], [5, 1.5124], [8, 1.6233999999999997]]
+Length of the OPEN list is : 3
+Current =  : 5
+Current is 5, neighbour is 9
+Heuristic is : 0.6134
+Current is 5, neighbour is 7
+Heuristic is : 0.5719
+OPEN list :
+
+[[5, 1.5124], [7, 1.6130999999999998], [8, 1.6233999999999997], [9, 1.8138]]
+Length of the OPEN list is : 4
 Current =  : 5
 Current is 5, neighbour is 9
 Current is 5, neighbour is 7
-Current =  : 8
-Current is 8, neighbour is 12
+Length of the OPEN list is : 3
+Current =  : 7
+Current is 7, neighbour is 10
+Heuristic is : 0.3135
 OPEN list :
 
-[[12, 1.6233999999999997]]
-Current is 8, neighbour is 9
+[[10, 1.6132999999999997], [8, 1.6233999999999997], [9, 1.8138]]
+Length of the OPEN list is : 3
+Current =  : 10
+Current is 10, neighbour is 12
+Heuristic is : 0.0
+OPEN list :
+
+[[12, 1.6132999999999997], [8, 1.6233999999999997], [9, 1.8138]]
+Current is 10, neighbour is 11
+Heuristic is : 0.214
+OPEN list :
+
+[[12, 1.6132999999999997], [8, 1.6233999999999997], [11, 1.6915999999999998], [9, 1.8138]]
+Length of the OPEN list is : 4
 Current =  : 12
-Search successful
-The path is :  [1, 3, 4, 8, 12] 
+The path is :  [1, 2, 5, 7, 10, 12]
